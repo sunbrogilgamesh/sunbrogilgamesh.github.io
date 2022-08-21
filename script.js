@@ -75,6 +75,9 @@ let conto;
 let parità = false;
 
 function compila(){
+  if (listofgames.length == 0) {//se non ci sono elementi nell'array (da inserire in tabella)
+    document.getElementById("schedule").innerHTML = "Al momento la schedule è sospesa.";//nasconde la tabella
+  }
   if (sorteggio == "data") {//se sorteggio è data
     perdata();//ordina per data
     let base = listofgames[0]["data"];//prendi data[0]
