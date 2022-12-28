@@ -1,4 +1,4 @@
-let tables = ["steam", "autonomo", "emu", "ps4", "ps3"];//lista di tabelle in cui cercare
+let tables = ["epic", "steam", "autonomo", "emu", "ps4", "ps3"];//lista di tabelle in cui cercare
 let ordine = "data";//priorità primo elemento schedule
 let listofgames = [];//array con i giochi chiesti
 
